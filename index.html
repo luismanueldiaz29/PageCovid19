@@ -8,8 +8,6 @@
     <meta name="author" content="" />
     <title>Infecciones de coronavirus</title>
 
-    <!-- boostrat -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -36,11 +34,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionReportCol">Informes de colombia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionReportMun">Informes mundiales</a></li>
                 </ul>
             </div>
         </div>
@@ -53,14 +48,19 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <p>  
-                        El virus que causa la COVID‑19 se transmite principalmente a través de las gotículas generadas cuando una persona infectada tose, estornuda o espira. Estas gotículas son demasiado pesadas para permanecer suspendidas en el aire y caen rápidamente sobre el suelo o las superficies.
-                        Usted puede infectarse al inhalar el virus si está cerca de una persona con COVID‑19 o si, tras tocar una superficie contaminada, se toca los ojos, la nariz o la boca.
+                        La pagina web contiene informacion y reportes de la situacion del covid 19 en Colombia y en el mundo                        
+                    </p>
+                    <p>
+                        Los informes COVID-19 agrupan breves notas sectoriales sobre los efectos y desafíos de la actual pandemia para saber tomar las decsiones apropiadas.
+                    </p>
+                    <p>
+                        para poder visualizar la informacion puede dar click en el boton de mas informacion o selecionar una de las opciones que se encuentran en el nav
                     </p>
                 </div>
                 <div class="col-md-3"></div>
             </div>
             <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Mas información</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#sectionReportMun">Mas información</a>
         </div>
     </header>
 
@@ -68,11 +68,19 @@
     <!-- Services-->
     <section class="page-section" id="services">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Informe de contagios</h2>
-                <h3 class="section-subheading text-muted">Servicios que la agencia ofrece.</h3>
+            <div id="sectionReportMun">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Informe de contagios mundiales</h2>
+                    <h3 class="section-subheading text-muted">Datos tomados de Our World in Data</h3>
+                </div>
                 <iframe width="100%" height="800" src="https://app.powerbi.com/reportEmbed?reportId=0fcb7ea7-8ed0-4e86-9d24-11c0d8209ea7&autoAuth=true&ctid=e2bf1c48-1dae-47ba-9808-67da61e2588d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
-                <hr>
+            </div>
+            
+            <div id="sectionReportCol">
+                <div class="text-center mt-3">
+                    <h2 class="section-heading text-uppercase">Informe de contagios en colombia</h2>
+                    <h3 class="section-subheading text-muted">Datos tomados de Datos abiertos</h3>
+                </div>
                 <iframe width="100%" height="800" src="https://app.powerbi.com/reportEmbed?reportId=c8be9325-860a-497c-8212-0493d3d7a6a5&autoAuth=true&ctid=e2bf1c48-1dae-47ba-9808-67da61e2588d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
             </div>
         </div>

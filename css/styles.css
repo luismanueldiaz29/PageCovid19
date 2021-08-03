@@ -10974,7 +10974,7 @@ header.masthead {
   padding-bottom: 3rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/Covid19.png");
+  background-image: url("../assets/pandemia.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11416,4 +11416,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .gallery{
   background-color: #f8f9fa;
+}
+
+/* _______________________________ */
+
+#sectionReportMun{
+  margin-top: 50px;
+}
+
+.btn-primary{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
